@@ -29,7 +29,7 @@ function UpdateProduct() {
     }
 
     if (productPrice <= 0) {
-      newErrors.productPrice = 'Product price must be greater than 0';
+      newErrors.productPrice = 'Product price is required';
     }
 
     if (!productImage) {
