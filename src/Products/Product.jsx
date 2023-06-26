@@ -32,5 +32,4 @@ export const Products = [
         price: 4.2,
         img: pen4
     }
-] || JSON.parse(localStorage.getItem("products"));
-
+];
